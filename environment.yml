@@ -1,0 +1,40 @@
+name: elm-env
+channels:
+ - conda-forge # essential for rasterio on osx
+dependencies:
+ - attrs
+ - bokeh
+ - dask
+ - datashader
+ - dill
+ - distributed
+ - jupyter
+ - krb5
+ - matplotlib
+ - networkx
+ - numba
+ - numpy
+ - pandas
+ - pyproj
+ - pytest
+ - python
+ - rasterio
+ - requests
+ - scikit-image
+ - scikit-learn
+ - scipy
+ - shapely
+ - statsmodels
+ - tblib
+ - xarray
+ - yaml
+ - six
+ - bioconda::deap
+ - pip:
+   - graphviz
+   - pysptools
+   - pypandoc
+   - geopy
+   - descartes
+   - zict
+   - pytest-rerunfailures
